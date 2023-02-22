@@ -1,11 +1,67 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    // screens: {
+    //   sm: "10%",
+    //   md: "768px",
+    //   lg: "870px",
+    //   llg: "1152px",
+    //   xl: "90%",
+    // },
+    extend: {
+      fontFamily: {
+        Roboto: ["Roboto", "sans-serif"],
+      },
+      blur: {
+        xl: "300px",
+        sm: "175px",
+      },
+    },
+    colors: {
+      "primary-text-color": "#334155",
+      "secondary-text-color": "#5C5C5C",
+      "footer-color": "#1C2541",
+      "import-green": "#17B686",
+      stroke: "#E8E8E8",
+      "secondary-color": "#001A33",
+      transparent: "transparent",
+      rose: colors.rose,
+      gray: colors.gray,
+      black: "#222222",
+      yellow: colors.yellow,
+      indigo: colors.indigo,
+      white: colors.white,
+      emerald: colors.emerald,
+      slate: colors.slate,
+      teal: colors.teal,
+      zinc: colors.zinc,
+      stone: colors.stone,
+      neutral: colors.neutral,
+      "pink-blur": "#E17A93",
+      "blue-blur": "#69def4",
+      "purple-tag": "#EBE0F5",
+      "blue-tag": "#D8F2FE",
+      "green-tag": "#EEF4E1",
+      "red-tag": "#F9DCDC",
+      "gray-bg": "#FCFCFC",
+      blue: {
+        50: "#e6f1fc",
+        100: "#b1d4f5",
+        200: "#8cbff1",
+        300: "#57a2ea",
+        400: "#3690e6",
+        500: "#0474e0",
+        600: "#046acc",
+        700: "#03529f",
+        800: "#02407b",
+        900: "#02315e",
+      },
+    },
   },
   plugins: [],
-}
+};
