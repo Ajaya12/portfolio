@@ -1,7 +1,6 @@
 import * as React from "react";
 import { HeadFC, Link, PageProps } from "gatsby";
 
-import copyright from "../images/footer/copyright.svg";
 import allbrainyLogo from "../images/svg/allbrainy-logo.svg";
 
 const Footer: React.FC<PageProps> = () => (

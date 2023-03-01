@@ -14,11 +14,8 @@
   .container {
     @apply w-[85%];
   }
-  .pink-blur {
-    @apply absolute bg-pink-blur blur-xl h-64 w-64 -z-10;
-  }
   .blue-blur {
-    @apply absolute bg-blue-blur blur-sm h-96 w-96 right-0 -z-10 top-32;
+    @apply absolute bg-blue-blur blur-xl h-3/4 w-1/2 -z-10 sm:opacity-[28%] opacity-[50%] right-1/4;
   }
 
   .btn-primary {
