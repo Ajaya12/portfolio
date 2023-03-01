@@ -1,14 +1,13 @@
 import * as React from "react";
 import { HeadFC, Link, PageProps } from "gatsby";
 
-import HeroSection from "../components/homepage/herosection";
-import OurProduct from "../components/homepage/ourproduct";
-import CTA from "../components/homepage/cta";
-
-import Footer from "../components/footer";
+import HeroSection from "./homepage/herosection";
+import OurProduct from "./homepage/ourproduct";
+import CTA from "./homepage/ctasection";
+import Footer from "../components/Menu/Footer";
 
 const IndexPage: React.FC<PageProps> = () => (
-  <main>
+  <main className="overflow-hidden">
     <div className="container mx-auto relative">
       <HeroSection />
       <OurProduct />

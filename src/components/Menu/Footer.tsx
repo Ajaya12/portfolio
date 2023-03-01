@@ -1,7 +1,7 @@
 import * as React from "react";
 import { HeadFC, Link, PageProps } from "gatsby";
 
-import allbrainyLogo from "../images/svg/allbrainy-logo.svg";
+import allbrainyLogo from "../../images/svg/allbrainy-logo.svg";
 
 const Footer: React.FC<PageProps> = () => (
   <div className="bg-footer-color text-center p-12 text-text-color-600 relative">
@@ -13,7 +13,7 @@ const Footer: React.FC<PageProps> = () => (
         </h2>
       </div>
       <p className="mb-14">8 The Green STE R, Dover, Delaware, USA, 19901</p>
-      <div className="md:flex md:gap-6 justify-center mb-12 text-text-color-900">
+      {/* <div className="md:flex md:gap-6 justify-center mb-12 text-text-color-900">
         <div className="flex justify-center gap-6 mb-6 md:mb-0">
           <p>Home</p>
           <p>Products</p>
@@ -26,7 +26,7 @@ const Footer: React.FC<PageProps> = () => (
             <p>Pricing</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <p className="text-xs">© Copyright 2023 - Allbrainy</p>
     </div>
