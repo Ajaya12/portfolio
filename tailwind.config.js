@@ -43,8 +43,8 @@ module.exports = {
       zinc: colors.zinc,
       stone: colors.stone,
       neutral: colors.neutral,
-      "pink-blur": "#E17A93",
-      "blue-blur": "#69def4",
+      "blue-blur": "#0281FA",
+
       "purple-tag": "#EBE0F5",
       "blue-tag": "#D8F2FE",
       "green-tag": "#EEF4E1",
