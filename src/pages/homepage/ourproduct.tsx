@@ -10,15 +10,15 @@ import RightArrow from "../../images/svg/right-arrow.svg";
 
 const OurProduct: React.FC<PageProps> = () => (
   <div id="ourproduct">
-    <h3 className="text-3xl text-text-color-900 font-bold text-center mb-20">
+    <h3 className="mb-20 text-3xl font-bold text-center text-text-color-900">
       Our Products
     </h3>
-    <div className="flex md:flex-row flex-col-reverse items-center gap-10 md:gap-20 mb-28">
+    <div className="flex flex-col-reverse items-center gap-10 md:flex-row md:gap-20 mb-28">
       <div className="md:w-1/3">
-        <h4 className="text-text-color-900 font-bold text-xl mb-6">
+        <h4 className="mb-6 text-xl font-bold text-text-color-900">
           Leave Balance - Slack app for leave management
         </h4>
-        <p className="text-text-color-600 mb-10">
+        <p className="mb-10 text-text-color-600">
           A Slack app for leave management that helps HR teams efficiently
           manage employee leave requests and balances directly within the Slack
           messaging platform.
@@ -36,15 +36,15 @@ const OurProduct: React.FC<PageProps> = () => (
       </div>
     </div>
 
-    <div className="flex md:flex-row flex-col items-center gap-28  md:gap-20 mb-28 relative">
+    <div className="relative flex flex-col items-center md:flex-row gap-28 md:gap-20 mb-28">
       <div className="md:w-2/3">
         <img src={Invoice} alt="Invoice" />
       </div>
       <div className="md:w-1/3">
-        <h4 className="text-text-color-900 font-bold text-xl mb-6">
+        <h4 className="mb-6 text-xl font-bold text-text-color-900">
           Invoice Work - Time Log management
         </h4>
-        <p className="text-text-color-600 mb-10">
+        <p className="mb-10 text-text-color-600">
           An app that aggregates employee time logs and provides invoicing
           capabilities for small businesses, with built-in motivation tools to
           keep employees focused and productive.
@@ -64,12 +64,12 @@ const OurProduct: React.FC<PageProps> = () => (
       />
     </div>
 
-    <div className="flex md:flex-row flex-col-reverse items-center gap-10 md:gap-20 mb-28">
+    <div className="flex flex-col-reverse items-center gap-10 md:flex-row md:gap-20 mb-28">
       <div className="md:w-1/3">
-        <h4 className="text-text-color-900 font-bold text-xl mb-6">
-          Polo themes - Next stop for awesome themes
+        <h4 className="mb-6 text-xl font-bold text-text-color-900">
+          Polo themes - Next stop for awesome e-commerce themes
         </h4>
-        <p className="text-text-color-600 mb-10">
+        <p className="mb-10 text-text-color-600">
           Next.js and Tailwind CSS themes for Shopify and Spree that are
           designed to help businesses launch professional-looking online stores
           quickly and easily.

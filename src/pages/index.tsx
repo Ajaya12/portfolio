@@ -8,7 +8,7 @@ import Footer from "../components/Menu/Footer";
 
 const IndexPage: React.FC<PageProps> = () => (
   <main className="overflow-hidden">
-    <div className="container mx-auto relative">
+    <div className="container relative mx-auto">
       <HeroSection />
       <OurProduct />
       <CTA />
@@ -25,7 +25,7 @@ export const Head: HeadFC = () => (
     <title>AllBrainy</title>
     <meta
       name="description"
-      content="Polothemes sells e-commerce themes (figma, tailwindcss, nextjs), currently nextjs themes only support shopify"
+      content="All Brainy | Product Development Lab by Truemark"
     ></meta>
   </>
 );
