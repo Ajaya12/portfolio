@@ -5,8 +5,72 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-50: #ebecf8;
+    --color-100: #c2c5e9;
+    --color-200: #a4a9de;
+    --color-300: #7a81cf;
+    --color-400: #6169c5;
+    --color-500: #3943b7;
+    --color-600: #343da7;
+    --color-700: #283082;
+    --color-800: #1f2565;
+    --color-900: #181c4d;
+    --color-1000: #1c2541;
+  }
+
+  .theme-navy {
+    --color-50: #e7e6f0;
+    --color-100: #b3b2d1;
+    --color-200: #8e8dbb;
+    --color-300: #5b5a9c;
+    --color-400: #3b3989;
+    --color-500: #0a086b;
+    --color-600: #090761;
+    --color-700: #07064c;
+    --color-800: #06043b;
+    --color-900: #04032d;
+    --color-1000: #020125;
+  }
+
+  .theme-green {
+    --color-50: #f1f1ec;
+    --color-100: #d3d5c5;
+    --color-200: #bec0a9;
+    --color-300: #a0a482;
+    --color-400: #8d9269;
+    --color-500: #717744;
+    --color-600: #676c3e;
+    --color-700: #505430;
+    --color-800: #3e4125;
+    --color-900: #2f321d;
+    --color-1000: #222707;
+  }
+
+  .theme-orange {
+    --color-50: #fff2e9;
+    --color-100: #ffd5ba;
+    --color-200: #ffc198;
+    --color-300: #ffa569;
+    --color-400: #ff934c;
+    --color-500: #ff781f;
+    --color-600: #e86d1c;
+    --color-700: #b55516;
+    --color-800: #8c4211;
+    --color-900: #6b320d;
+    --color-1000: #4d2206;
+  }
+
   body {
     @apply font-Roboto;
+  }
+
+  .border-b-3 {
+    border-bottom-width: 3px;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
@@ -14,16 +78,16 @@
   .container {
     @apply w-[85%];
   }
-  .blue-blur {
+  /* .blue-blur {
     @apply absolute bg-blue-blur blur-xl h-3/4 w-1/2 -z-10 sm:opacity-[28%] opacity-[50%] right-1/4;
-  }
+  } */
 
   .btn-primary {
-    @apply bg-blue-500 hover:bg-blue-700 text-white  py-2 px-4 rounded;
+    @apply bg-primary-500 hover:bg-primary-600 text-white  py-2 px-4 rounded;
   }
 
   .btn-primary-outline {
-    @apply border border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500 py-2 px-4 rounded;
+    @apply border border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500 py-2 px-4 rounded;
   }
 
   .btn-primary-outline:hover svg {
